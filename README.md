@@ -29,7 +29,7 @@ A simple **Bash script** that scans your Flutter project's cached plugins in
 Clone the repo and make the script executable:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/flutter-plugin-dependency-checker.git
+git clone https://github.com/hilalbaig/flutter-plugin-dependency-checker.git
 cd flutter-plugin-dependency-checker
 chmod +x check_plugins.sh
 ```
