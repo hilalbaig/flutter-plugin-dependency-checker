@@ -37,22 +37,19 @@ Clone the repo and make the script executable:
 git clone https://github.com/YOUR_USERNAME/flutter-plugin-dependency-checker.git
 cd flutter-plugin-dependency-checker
 chmod +x check_plugins.sh
-
----
-
-
+```
 
 (Optional) Add it to your PATH for global use:
 
-```bash
+```
 cp check_plugins.sh /usr/local/bin/check_plugins
-```bash
+```
 
 Now you can run it from anywhere:
 
 ```bash
 check_plugins
-```bash
+```
 
 ⚙️ Usage
 
@@ -60,7 +57,7 @@ Run the script:
 
 ```bash
 ./check_plugins.sh
-```bash
+```
 
 It will first print the minimum required versions (editable inside the script):
 
@@ -85,19 +82,19 @@ Select what to check (comma-separated, default=1,2,3,4,5 = All):
 Example input:
 ```bash
 1,3,5
-```bash
+```
 📋 Example Output
 
 If outdated versions are found:
 ```bash
 ⚠️ The following plugins need updates to meet minimum defined versions:
 1. android_dynamic_icon -> /Users/username/.pub-cache/git/android_dynamic_icon/android/build.gradle  AGP=7.3.0 Kotlin=1.6.21 targetSdk=33
-```bash
+```
 
 If everything is good:
 ```bash
 🎉 Hurray! All checked plugins are up to date 🚀✨
-```bash
+```
 🛠 How It Works
 
 Reads Flutter plugin cache in ~/.pub-cache/git/* and ~/.pub-cache/hosted/pub.dev/*.
