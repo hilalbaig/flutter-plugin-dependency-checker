@@ -37,7 +37,9 @@ Clone the repo and make the script executable:
 git clone https://github.com/YOUR_USERNAME/flutter-plugin-dependency-checker.git
 cd flutter-plugin-dependency-checker
 chmod +x check_plugins.sh
-```bash
+
+---
+
 
 
 (Optional) Add it to your PATH for global use:
