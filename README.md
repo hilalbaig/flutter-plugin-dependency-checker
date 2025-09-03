@@ -104,13 +104,14 @@ Prints a report of outdated plugins.
 
 You can adjust thresholds here:
 
+```bash
 ✅ Configurable thresholds (edit these if needed)
 MIN_AGP=8
 MIN_GRADLE=8
 MIN_KOTLIN=1.9
 MIN_COMPILE_SDK=35
 MIN_TARGET_SDK=35
-
+```
 👨‍💻 Author
 
 Hilal Baig
